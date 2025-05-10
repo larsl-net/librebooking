@@ -233,6 +233,8 @@ class FakeLoginPage extends FakePageBase implements ILoginPage
 
     public function SetOauth2Url($URL) {}
 
+    public function SetOauth2Name($Name) {}
+
     public function PageLoad()
     {
         $this->_PageLoadWasCalled = true;
