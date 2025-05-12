@@ -1,7 +1,7 @@
 # Oauth2 Configuration
-You can use any IDP which supports Oauth2 like [authentik](https://goauthentik.io) for authentification with LibreBooking
+You can use any IdP (Identity Provider) which supports Oauth2 like [authentik](https://goauthentik.io) or [Keycloak](https://www.keycloak.org/) for authentification with LibreBooking
 
-## IDP Configuration
+## IdP Configuration
 First you need to create a Client in your IDP in Confidential mode (Client ID and Client Secret).
 The Client need to allow redirects to `<LibreBooking URL>/Web/oauth2-auth.php` ex. `https://librebooking.com/Web/oauth2-auth.php` and need the scoopes `openid`, `email` and `profile`.
 
